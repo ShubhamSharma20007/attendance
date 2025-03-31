@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const { GoogleSpreadsheet } = require('google-spreadsheet');
-const creds = require('./service-account.json');
+// const creds = require('./service-account.json');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const { JWT } = require('google-auth-library');
